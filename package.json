@@ -1,0 +1,12 @@
+{
+  "name": "whatsapp-greenapi-backend",
+  "version": "1.0.0",
+  "description": "Setu WhatsApp civic assistant using GREEN-API and Groq",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node --env-file=.env src/index.js",
+    "dev": "node --env-file=.env src/index.js",
+    "test": "node --env-file=.env --test --test-isolation=none test/chatbot.test.js"
+  }
+}
